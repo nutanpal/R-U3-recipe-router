@@ -1,0 +1,40 @@
+.r_card {
+  width: 250px;
+  height: 350px;
+  align-items: center;  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0px 3px 10px rgba(13, 4, 4, 0.6);
+}
+
+.r_img_container {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.teal_btn {
+  background-color: rgb(50, 97, 76);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  /*transition: all*/
+  transition-duration: 0.4s;
+}
+.teal_btn:hover {
+background-color: rgb(23, 178, 111);
+box-shadow: 10px 5px 5px rgb(72, 70, 70);
+}
+/* boxshadow : offset-x | offset-y | blur-radius | color */
